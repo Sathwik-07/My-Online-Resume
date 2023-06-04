@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Challa Sathwik Portfolio Website</title>
+  <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+  <style>
+    .center {
+     display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      gap: 20px;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Scroll Top Button -->
+  <div class="scroll-top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
+    </svg>
+  </div>
+  <!-- Navigation -->
+  <section id="navigation">
+    <div class="nav-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </div>
+  </section>
+  <div id="nav-content">
+    <div class="close-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </div>
+    <div class="wrapper">
+      <h2 class="section-heading">Menu</h2>
+      <nav>
+        <ul>
+          <li><a data-text="Home" href="./index.html#hero">Home</a></li>
+          <li><a data-text="About" href="./index.html#about">About</a></li>
+          <li><a data-text="Projects" href="./index.html#projects">Projects</a></li>
+          <li><a data-text="Testimonial" href="./index.html#testimonial">Education</a></li>
+          <li><a data-text="Contact" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero section -->
+  <section id="hero">
+    <div class="container">
+      <div class="left">
+        <p class="subheading">I'm CHALLA SATHWIK </p>
+        <h2 class="heading">
+          <div class="wrapper"><span>Technophile</span></div>
+        </h2>
+        <p class="desc">I'm always eager to learn about the mechanism behind a technology.I am very passionate about exploring the technology and Iam looking for an opportunity in the IT industry 
+		where I can utilize my skills to learn and contribute to the growth of the company  consistently where I can be a valuable asset to that respective company in which iam working.
+          </p>
+        <div class="buttons">
+          <a href="#projects" class="primary-btn">See My Works</a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="./image/myphoto.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- services Section -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-heading" data-outline="What I do?
+      ">What I do?
+      </h2>
+      <div class="all-items">
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="item-heading"> Full stack Development </h3>
+          <p class="item-desc">Currently,I am immersing myself in the world of full stack development,I am acquiring the skills to build dynamic and robust web applications.I am broadening my understanding in both front-end and back-end development.</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+            </svg>
+          </div>
+          <h3 class="item-heading"> My life philosophy</h3>
+          <p class="item-desc">Learning is a life long journey.Continues learning without hesitation unveils the extraordinary within you.Gaining abundance of knowledge is the true wealth apart from material posessions <br></p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
+            </svg>
+          </div>
+          <h3 class="item-heading">
+            Competitive programming</h3>
+          <p class="item-desc">  I am also a 3-star (1699 rating) on CodeChef. Currently, I am working to improve my skills by solving problems on LeetCode.(1549 Rating)
+</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section id="testimonial">
+    <div class="container">
+      <h1 class="section-heading" data-outline="Education">Education </h1>
+      <div class="all-items">
+        <div class="item">
+          <div class="img">
+          </div>
+          <h3 class="testimonial-heading">Btech in Computer Science and Engineering</h3>
+          <p class="testimonial-sub-heading">2019 - 2023</p>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+            </svg>
+          </div>
+          <p class="testimonial-desc"> Swarna Bharathi institute of Science and Technology, Khammam
+            <br> CGPA : 7.70 </p>
+        </div>
+        <div class="item">
+          <div class="img">
+          </div>
+          <h3 class="testimonial-heading"> Intermediate(Class 12th)</h3>
+          <p class="testimonial-sub-heading">2016 - 2018</p>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+            </svg>
+          </div>
+          <p class="testimonial-desc"> Sree Chaitanya junior college, Khammam <br>
+          Precentage: 96 </p>
+        </div>
+        <div class="item">
+          <div class="img">
+          </div>
+          <h3 class="testimonial-heading"> Class 10th</h3>
+          <p class="testimonial-sub-heading">2015 - 2016</p>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+            </svg>
+          </div>
+          <p class="testimonial-desc"> Nirmala High School, Garla <br>
+            Percentage: 90
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- stats Section -->
+  <section id="stats">
+    <div class="container">
+      <h2 class="section-heading" data-outline="Skills & Strengths">Skills & Strengths </h2>
+      <div class="all-items">
+        <div class="item">
+          <h3 class="stats-sub-heading">  Technical Stack</h3>
+          <p> Java, C#.NET C++, Python, OOPS, JDBC, Servlets, C, Spring, Hibernate, MySQL, Linux commands, Html, Css, Xml.</p>
+        </div>
+        <div class="item">
+          <h3 class="stats-sub-heading">Personal Interest </h3>
+          <p> Learning frameworks, Learning Programming, Cricket, Mythology, Full stack development, Surfing Internet and youtube.</p>
+        </div>
+        <div class="item">
+          <h3 class="stats-sub-heading"> My Strengths</h3>
+          <p> Self learner, Quick learner, Assilimitative, Adaptability, Flexibility, Leadership, Effective team player</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section id="about">
+    <div class="container">
+        <h2 class="section-heading" data-outline="Academic projects">Academic Projects</h2>
+        <div class="wrapper">
+            <div class="left">
+                <div class="card">
+                    <div class="img">
+                    </div> 
+                    <div class="project1" style="background-color:#ffed81; ">
+                        <p class="card-desc"><b>MINOR PROJECT</b><br><b><span style="font-size:20px">Efficient polling methods for social media networks using friendship paradox</span></b></p>
+                        <p>
+                            This is a web application consisting of two modules: admin and the user. Admin is only a single entity, but users can be multiple. The admin module manages user accounts and data analysis of polling. The user module enables participation in the poll and provides access to analyzed results.
+                        </p>
+                        <p>
+                            By identifying certain words and phrases in the polling, the opinion is labeled as either positive or negative. This method can be useful in analyzing customer feedback, social media interactions, and other forms of communication between two or more individuals.
+                        </p>
+                        <p>
+                            We followed One-tier Architecture for the development of this project and utilized various technologies like JDBC, JSP, Servlets, and backend database as MySQL.
+                        </p>
+                    </div><br><br>
+                    <div class="project2" style="background-color: #ffed81;">
+                        <p class="card-desc"><b>MAJOR PROJECT</b><br><b><span style="font-size:20px">Cashless society: Managing security and privacy in the technological age</span></b></p>
+                        <p>
+                            This project is an advanced web application that introduces a new and secure banking system designed for the modern age. With a one-tier architecture, this web application includes three modules: a bank admin, an end user, and an e-commerce user module, working together.
+                        </p>
+                        <p>
+                            The bank admin module manages customer accounts, performs transactions, and monitors system activities. The end user module enables customers to access their accounts, perform various banking operations like balance inquiry and view transaction history. The e-commerce user is responsible for adding products to the website and monitoring those products and their orders and bills.
+                        </p>
+                        <p>
+                            This project is a new approach for credit card numbers. Instead of traditional static card numbers, our system assigns randomized numbers to credit cards in the virtual format. This dynamic number generation adds an extra layer of security, making it difficult for unauthorized individuals to access sensitive card information.
+                        </p>
+                        <p>
+                            The development of this web application involved the use of various Java technologies. JDBC was utilized for database connectivity. Servlets were used to handle client requests and generate dynamic web pages, while JSP pages facilitated the creation of dynamic content. The web application was deployed on the Tomcat server, ensuring efficient and reliable hosting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- END Stats Section -->
+
+
+
+  <!-- projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-heading" data-outline="PERSONAL Projects">PERSONAL PROJECTS</h2>
+      <div class="all-items">
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./image/project-1.jpg" alt="">
+            </div>
+          </div> 
+          <div class="right">
+            <h2 class="project-title"> Arithmetic Calculator </h2>
+      
+            <div class="buttons">
+              <a href="https://sathwik-07.github.io/Arithmetic-Calculator/" class="primary-btn">Know More</a>
+              <a href="https://sathwik-07.github.io/Arithmetic-Calculator/" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./image/project-3.jpg" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="project-title"> Word Counter
+            </h2>
+           
+            </h3>
+            
+            <div class="buttons">
+              <a href="https://sathwik-07.github.io/WC/" class="primary-btn">Know More</a>
+              <a href="https://sathwik-07.github.io/WC/" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="left">
+            <div class="img">
+              <img src="./image/project-2.jpg" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <h2 class="project-title"> Student Report Managemnet System </h2>
+            
+            <div class="buttons">
+              <a href="https://sathwik-07.github.io/SRMS/" class="primary-btn">Know More</a>
+              <a href="https://sathwik-07.github.io/SRMS/" class="primary-btn outline external-link"> <span>Preview</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- About -->
+  
+<div class="center">
+<h2 class="section-heading" data-outline="PERSONAL DETAILS">PERSONAL DETAILS</h2>
+    <div>
+      <h2 class="slogan">Here are my Personal Portfolio</h2>
+      <p class="right-text"> - Father's Name: Challa Sree Ramasastry <br>
+        - Date of Birth: 07/06/2000<br>
+        - Gender: Male <br>
+        - Nationality: Indian <br>
+        - Marital Status: single <br>
+        - State: Telangana <br>
+        - District: Mahabubabad <br>
+        - Village: Garla <br>
+        - Address:<br> House No:9-74/1,Shivalayam street,Garla and Pincode:507210
+      </p> 
+        <div class="buttons">
+          <a href="./resume.pdf" class="primary-btn" download="">Download Resume</a>
+          <a href="./contact.html" class="primary-btn outline">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </div></section>
+ 
+
+
+  <!-- Footer Section -->
+  <section id="footer">
+    <div class="container">
+      <footer>
+        <div class="col-1">
+          <div class="logo"><a href="#">
+              <img src="./image/myphoto.jpg" alt="">
+            </a></div>
+        
+        </div>
+        <div class="col-2">
+          <h2 class="column-heading">Important<br>Links</h2>
+          <ul>
+            <li><a href="./index.html#home">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./index.html#Project">Project</a></li>
+            <li><a href="./index.html#testimonial">Education</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h2 class="column-heading">Contact<br>Info</h2>
+          <ul>
+            <li><a href="#">sathwikchalla5@gmail.com</a></li>
+            <li><a href="#">+91-7995905078</a></li>
+            <li><a href="#">Garla Telangana, India</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h2 class="column-heading">profile<br>Links</h2>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/sathwik07/">Linkedin</a></li>
+            <li><a href="https://github.com/Sathwik-07">Github</a></li>
+            <li><a href="https://www.codechef.com/users/challasathwik7">CodeChef</a></li>
+            <li><a href="https://leetcode.com/challa_sathwik/">Leetcode</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+  <section id="copyright">
+    <div class="container">
+      <center> <p> Made with ❤️ by Challa Sathwik </p></center>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
+
+
